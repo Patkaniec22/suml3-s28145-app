@@ -1,6 +1,5 @@
 import streamlit as st
-from transformers import pipeline
-
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 
 st.set_page_config(
     page_title="EN → DE Translator",
